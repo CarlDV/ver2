@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="icon.jpg" alt="Ka'Taqam Café Logo" class="logo-icon"> Ka'Taqam Café
+        </a>
+      </div>
+      <nav>
+        <button class="hbm" aria-label="Toggle menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <ul>
+          <li><button class="close-btn" aria-label="Close menu">&times;</button></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Order</a></li>
+          <li><a href="index.html#gallery" class="active">Gallery</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="gallery">
+    <h1>⚜ Gallery ⚜</h1>
+    <div class="gallery-grid">
+      <a href="gallery-images/GALIMG1.jpg" target="_blank">
+        <img src="gallery-images/GALIMG1.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG2.jpg" target="_blank">
+        <img src="gallery-images/GALIMG2.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG3.jpg" target="_blank">
+        <img src="gallery-images/GALIMG3.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG4.jpg" target="_blank">
+        <img src="gallery-images/GALIMG4.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG5.jpg" target="_blank">
+        <img src="gallery-images/GALIMG5.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG6.jpg" target="_blank">
+        <img src="gallery-images/GALIMG6.jpg" alt="">
+      </a>
+      <a href="gallery-images/GALIMG7.jpg" target="_blank">
+        <img src="gallery-images/GALIMG7.jpg" alt="">
+      </a>
+    </div>
+    <div class="upload-container">
+      <label for="file-upload" class="upload-btn">Upload Your Photo</label>
+      <input id="file-upload" type="file" accept="image/jpeg, image/png, image/gif">
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
