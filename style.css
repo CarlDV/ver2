@@ -206,6 +206,23 @@ nav a.active {
   object-fit: cover;
 }
 
+.footer {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-top: 4px solid wheat;
+}
+
+.footer img {
+  width: 40px;
+}
+
+.logoicon2 {
+  border-radius: 16px;
+}
+
 /* FOR THE ORDER SECTION */
 
 .menu {
@@ -222,6 +239,10 @@ nav a.active {
   width: fit-content;
   text-align: center;
   margin: auto auto 60px;
+}
+
+.menu-highlight {
+  background: #fff;
 }
 
 .menucategory {
@@ -247,6 +268,20 @@ nav a.active {
   margin: 0 auto;
 }
 
+.menu-scroll-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu-scroll-track {
+  display: flex;
+  gap: 2rem;
+  width: calc(332px * 6); /* (card width + gap) * number of cards */
+  animation: scroll 25s linear infinite;
+}
+
 .card {
   background: #fff;
   border-radius: 10px;
@@ -257,6 +292,7 @@ nav a.active {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .card:hover {
@@ -283,6 +319,12 @@ nav a.active {
   font-size: 1.2rem;
   color: #333;
   flex-grow: 1;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0 1rem;
 }
 
 .cardfooter {
@@ -592,8 +634,6 @@ nav a.active {
   padding: 3rem 2rem;
   background: #f4f4f4;
   text-align: center;
-  margin-bottom: 250px;
-
 }
 
 .contact h1 {
@@ -735,7 +775,7 @@ nav a.active {
 
   header {
     background-image: none;
-    background-color: #1a1a1ace;
+    background-color: #2222227e;
   }
 
   nav a {
