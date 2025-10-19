@@ -546,6 +546,7 @@ nav a.active {
   border-radius: 16px;
   padding: 2%;
   text-align: center;
+  color: #ffe234;
 }
 
 .reviewform {
@@ -603,11 +604,6 @@ nav a.active {
   justify-content: flex-end;
   font-size: 2rem;
   color: #ddd;
-}
-
-.starrating span {
-  cursor: pointer;
-  transition: color 0.2s;
 }
 
 .submitreviewbtn {
